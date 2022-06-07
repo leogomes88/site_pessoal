@@ -1,0 +1,201 @@
+/*CSS MEU SITE*/
+
+/*PADRÕES GERAIS*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html{
+
+	box-sizing: border-box;
+}
+
+html, body, #conteudo{
+	
+	overflow-x: hidden;	
+	scroll-behavior: smooth;
+}
+
+#conteudo{
+	
+	flex-grow: 1;
+	padding-top: 15px;
+	padding-bottom: 15px;	
+}
+
+body{
+
+	display: flex;
+  	min-height: 100vh;
+  	flex-direction: column;
+	background: linear-gradient(#00012d, #27294c);	
+	font-family: Helvetiva, Arial, sans-serif;
+	color: #a4a2b3;		
+}
+
+/*HOME*/
+
+#nome{
+	
+	font-weight: 700;
+	margin-bottom: 35px;	
+}
+
+#avatar{
+	
+	margin-bottom: 40px;			
+}
+
+#atributos{
+
+	font-size: 2em;
+	margin-top: 30px;
+}
+
+/*CABEÇALHO*/
+
+.cabecalho{
+
+	background-color: #0b0a26;	
+}
+
+#logo{
+
+	font-family: "Lucida Console", Courier, monospace;
+	color: #a4a2b3;
+}
+
+.navbar-light .navbar-nav .nav-link{
+
+	color: #a4a2b3;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+
+	color: #d0d0d9;
+}
+
+
+.navbar-light .navbar-toggler {
+
+    color: white;
+    border-color: #a4a2b3;
+}
+
+.divisor{
+
+	width: 1px;
+	background: #a4a2b3;
+	margin: 10px 15px;
+}
+
+/*RODAPÉ*/
+
+footer{
+	
+	padding-top: 10px ;			
+	background: #0b0a26;
+	position: static;		
+	bottom: 0;			
+}
+
+footer p{
+
+	color: #27294c;
+	margin: 0;
+	padding: 0;		
+}
+
+/*SELETORES*/
+
+h2{
+
+	font-size: 3em;
+	font-weight: 500;	
+}
+
+h4{
+
+	font-size: 1.5em;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
+
+li{
+	list-style-type: none;
+}
+
+hr{
+	border-color: #a4a2b3;
+}
+
+/*// Extra small devices (portrait phones, less than 576px*/
+@media (max-width: 575.98px){
+
+	#logo{
+		
+		font-size: 1em;		
+	}
+
+	#tituloConhecimentos{
+		
+		font-size: 2em;		
+	}	
+
+	#avatar{
+
+		width: 40%;
+	}
+
+	#nome{
+
+		font-size: 2em;	
+	}
+
+	#atributos{
+		
+		font-size: 1.3em;
+		
+	}
+	
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px){	
+
+	#nome{
+
+		margin-bottom: 10px;	
+	}
+
+	#tituloConhecimentos{
+		
+		font-size: 2em;		
+	}
+	
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px){	
+	
+
+	#tituloConhecimentos{
+		
+		font-size: 2em;		
+	}	
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px){
+
+		
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px){
+	
+	
+}
